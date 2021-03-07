@@ -179,6 +179,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+    
 # Fingerprint
 ifneq ($(TARGET_NO_FOD),true)
 PRODUCT_PACKAGES += \
